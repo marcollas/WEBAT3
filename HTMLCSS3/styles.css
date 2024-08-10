@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.esquerda {
+    flex: 1;
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    width: 80%;
+    max-width: 500px; 
+    text-align: left; 
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #483d8b;
+}
+
+.direita {
+    flex: 1; 
+    position: relative; /
+}
+
+.direita img {
+    width: 736px;
+    height: 900px;
+    left: 704px;
+}
+
